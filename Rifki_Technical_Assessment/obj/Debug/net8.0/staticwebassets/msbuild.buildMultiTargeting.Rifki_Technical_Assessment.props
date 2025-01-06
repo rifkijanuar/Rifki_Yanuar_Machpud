@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Rifki_Technical_Assessment.props" />
+</Project>

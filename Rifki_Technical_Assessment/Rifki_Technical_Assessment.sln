@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rifki_Technical_Assessment", "Rifki_Technical_Assessment.csproj", "{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rifki_Technical_AssessmentTests", "..\Rifki_Technical_AssessmentTests\Rifki_Technical_AssessmentTests.csproj", "{B8EC61BC-27F6-4D8F-BF7D-8A4B12B93214}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8EC61BC-27F6-4D8F-BF7D-8A4B12B93214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EC61BC-27F6-4D8F-BF7D-8A4B12B93214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EC61BC-27F6-4D8F-BF7D-8A4B12B93214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EC61BC-27F6-4D8F-BF7D-8A4B12B93214}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C0FC79A-1AAD-40D1-A7B1-E4086F9990CC}
+	EndGlobalSection
+EndGlobal

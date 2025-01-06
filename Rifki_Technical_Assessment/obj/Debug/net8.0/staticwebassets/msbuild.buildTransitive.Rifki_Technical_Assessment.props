@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Rifki_Technical_Assessment.props" />
+</Project>

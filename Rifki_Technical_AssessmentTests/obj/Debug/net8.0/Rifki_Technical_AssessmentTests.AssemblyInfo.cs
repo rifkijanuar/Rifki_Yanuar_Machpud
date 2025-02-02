@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rifki_Technical_AssessmentTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96e7333f404ffe0cfb3dbd2519521b058ef1903c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rifki_Technical_AssessmentTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rifki_Technical_AssessmentTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

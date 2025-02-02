@@ -6,5 +6,6 @@
         public record RegisterRequest(string Username, string Email, string Password);
 
         public record ProductRequest(string Name, string Description, decimal Price);
+
     }
 }

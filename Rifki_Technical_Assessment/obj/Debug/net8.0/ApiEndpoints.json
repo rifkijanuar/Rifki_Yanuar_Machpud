@@ -87,7 +87,7 @@
         "IsRequired": true
       },
       {
-        "Name": "product",
+        "Name": "productRequest",
         "Type": "Rifki_Technical_Assessment.Models.Product",
         "IsRequired": true
       }

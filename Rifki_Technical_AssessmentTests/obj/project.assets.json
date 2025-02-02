@@ -222,6 +222,24 @@
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.0": {
         "type": "package"
       },
+      "Microsoft.EntityFrameworkCore.InMemory/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.Extensions.Caching.Memory": "9.0.0",
+          "Microsoft.Extensions.Logging": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -1908,6 +1926,7 @@
           "BCrypt.Net-Next": "4.0.3",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.11",
           "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.Extensions.Caching.StackExchangeRedis": "9.0.0",
           "Moq": "4.20.72",
@@ -2307,6 +2326,21 @@
         "docs/PACKAGE.md",
         "microsoft.entityframeworkcore.analyzers.9.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/9.0.0": {
+      "sha512": "Pm4NBnv3aB8O5bBNwWRkL4a/H+3WdgKRKYD93FkR9TrUNb0jfns9JVN5w9WEUsQCm0C69Eg2Y85i8pdmSfaNnQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.9.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/9.0.0": {
@@ -5042,6 +5076,7 @@
     "net8.0": [
       "MSTest.TestAdapter >= 3.1.1",
       "MSTest.TestFramework >= 3.1.1",
+      "Microsoft.EntityFrameworkCore.InMemory >= 9.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Rifki_Technical_Assessment >= 1.0.0",
       "coverlet.collector >= 6.0.0"
@@ -5053,11 +5088,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_AssessmentTests\\Rifki_Technical_AssessmentTests.csproj",
+      "projectUniqueName": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_AssessmentTests\\Rifki_Technical_AssessmentTests.csproj",
       "projectName": "Rifki_Technical_AssessmentTests",
-      "projectPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_AssessmentTests\\Rifki_Technical_AssessmentTests.csproj",
+      "projectPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_AssessmentTests\\Rifki_Technical_AssessmentTests.csproj",
       "packagesPath": "C:\\Users\\Rifki\\.nuget\\packages\\",
-      "outputPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_AssessmentTests\\obj\\",
+      "outputPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_AssessmentTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rifki\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5075,8 +5110,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj": {
-              "projectPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj"
+            "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj": {
+              "projectPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj"
             }
           }
         }
@@ -5103,6 +5138,10 @@
           "MSTest.TestFramework": {
             "target": "Package",
             "version": "[3.1.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[9.0.0, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

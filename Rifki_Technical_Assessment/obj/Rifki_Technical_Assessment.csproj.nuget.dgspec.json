@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj": {}
+    "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj": {}
   },
   "projects": {
-    "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj": {
+    "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj",
+        "projectUniqueName": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj",
         "projectName": "Rifki_Technical_Assessment",
-        "projectPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj",
+        "projectPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj",
         "packagesPath": "C:\\Users\\Rifki\\.nuget\\packages\\",
-        "outputPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\obj\\",
+        "outputPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rifki\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[9.0.0, )"
             },

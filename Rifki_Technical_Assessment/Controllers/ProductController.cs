@@ -6,6 +6,7 @@ using Microsoft.Extensions.Caching.Memory;
 using Newtonsoft.Json;
 using Rifki_Technical_Assessment.Data;
 using Rifki_Technical_Assessment.Models;
+using Rifki_Technical_Assessment.Repositories;
 using Serilog;
 using static Rifki_Technical_Assessment.Models.DTOs;
 
@@ -15,25 +16,26 @@ namespace Rifki_Technical_Assessment.Controllers
     [Route("api/[controller]")]
     public class ProductController : ControllerBase
     {
-        private readonly AppDbContext _context;
         private readonly ILogger<ProductController> _logger;
         private readonly IMemoryCache _cache;
+        private readonly IProductRepository _productRepository;
 
-        public ProductController(AppDbContext context, ILogger<ProductController> logger, IMemoryCache cache)
+        public ProductController(ILogger<ProductController> logger, IMemoryCache cache, IProductRepository productRepository)
         {
-            _context = context;
             _logger = logger;
             _cache = cache;
+            _productRepository = productRepository;
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetProducts()
         {
             var cacheKey = "all_products";
             if (!_cache.TryGetValue(cacheKey, out List<Product> products))
             {
                 // If not found in cache, fetch from database
-                products = await _context.Products.ToListAsync();
+                products = await _productRepository.GetProducts();
 
                 // Set cache options (e.g., cache for 5 minutes)
                 var cacheOptions = new MemoryCacheEntryOptions()
@@ -57,7 +59,8 @@ namespace Rifki_Technical_Assessment.Controllers
                 if (!_cache.TryGetValue(cacheKey, out Product product))
                 {
                     // If not found in cache, fetch from database
-                    product = await _context.Products.FindAsync(id);
+                    //product = await _context.Products.FindAsync(id);
+                    product = await _productRepository.GetProductById(id);
                     if (product == null)
                     {
                         return NotFound();
@@ -68,7 +71,7 @@ namespace Rifki_Technical_Assessment.Controllers
                         .SetSlidingExpiration(TimeSpan.FromMinutes(5));
 
                     // Store the product in the cache
-                    _cache.Set(cacheKey, product, cacheOptions);
+                    //_cache.Set(cacheKey, product, cacheOptions);
                 }
 
                 return Ok(product);
@@ -81,6 +84,7 @@ namespace Rifki_Technical_Assessment.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> CreateProduct(ProductRequest productRequest)
         {
             try
@@ -102,8 +106,9 @@ namespace Rifki_Technical_Assessment.Controllers
                 };
 
                 _logger.LogInformation("Creating product with name: {ProductName}", product.Name);
-                _context.Products.Add(product);
-                await _context.SaveChangesAsync();
+                //_context.Products.Add(product);
+                //await _context.SaveChangesAsync();
+                await _productRepository.CreateProduct(product);
 
                 // Clear the cache after creating a product
                 _cache.Remove("all_products");
@@ -120,7 +125,8 @@ namespace Rifki_Technical_Assessment.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, Product product)
+        [Authorize]
+        public async Task<IActionResult> UpdateProduct(int id, Product productRequest)
         {
             try
             {
@@ -131,22 +137,15 @@ namespace Rifki_Technical_Assessment.Controllers
                     return BadRequest(ModelState); // Return validation errors
                 }
 
-                var existingProduct = await _context.Products.FindAsync(id);
+                var existingProduct = await _productRepository.GetProductById(id);
                 if (existingProduct == null)
                 {
                     return NotFound();
                 }
 
-                existingProduct.Name = product.Name;
-                existingProduct.Description = product.Description;
-                existingProduct.Price = product.Price;
-                existingProduct.CreatedAt = product.CreatedAt;
-
-                _logger.LogInformation("Updeting product with Id: {Id}", product.Id);
-
-                await _context.SaveChangesAsync();
-                _logger.LogInformation("Product updating successfully with ID: {ProductId}", product.Id);
-                return NoContent();
+                var updatedProduct = await _productRepository.UpdateProduct(id, productRequest);
+                _logger.LogInformation("Product updating successfully with ID: {ProductId}", id);
+                return Ok(updatedProduct);
             }
             catch (Exception ex)
             {
@@ -157,17 +156,18 @@ namespace Rifki_Technical_Assessment.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             try
             {
                 _logger.LogInformation("Received request to delete a product: {Id}", id);
-                var product = await _context.Products.FindAsync(id);
+                var product = await _productRepository.GetProductById(id);
                 if (product == null) return NotFound();
 
                 _logger.LogInformation("Deleting product with Id: {Id}", product.Id);
-                _context.Products.Remove(product);
-                await _context.SaveChangesAsync();
+                await _productRepository.DeleteProduct(product);
+                await _productRepository.SaveChanges();
                 _logger.LogInformation("Product delete successfully with ID: {ProductId}", product.Id);
                 return NoContent();
             }
@@ -181,11 +181,12 @@ namespace Rifki_Technical_Assessment.Controllers
 
         // Search and Filter
         [HttpGet("search")]
+        [Authorize]
         public async Task<IActionResult> SearchProducts([FromQuery] string name, [FromQuery] decimal? minPrice, [FromQuery] decimal? maxPrice, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10, [FromQuery] string sortBy = "Name")
         {
             try
             {
-                var query = _context.Products.AsQueryable();
+                var query = _productRepository.GetProductAll();
 
                 // Filter by name if provided
                 _logger.LogInformation("Received request to search a product Name: {ProductName}", name);

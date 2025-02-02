@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Rifki_Technical_Assessment;
 using Rifki_Technical_Assessment.Data;
+using Rifki_Technical_Assessment.Repositories;
 using Serilog;
 using System.Text;
 
@@ -30,6 +31,31 @@ builder.Host.UseSerilog(); // Use Serilog as the logging provider
 
 // Register IMemoryCache
 builder.Services.AddMemoryCache();
+
+//Setting JWT
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration.GetValue<string>("Jwt:Issuer"),
+        ValidAudience = builder.Configuration.GetValue<string>("Jwt:Audience"),
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration.GetValue<string>("Jwt:Key")))
+    };
+});
+
+builder.Services.AddAuthorization();
+
+// Register the Repository and its implementation
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 

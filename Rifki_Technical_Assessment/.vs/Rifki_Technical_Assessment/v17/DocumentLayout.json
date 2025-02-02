@@ -1,34 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\",
+  "WorkspaceRootPath": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\technicaltest\\rifki_technical_assessment\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8EC61BC-27F6-4D8F-BF7D-8A4B12B93214}|..\\Rifki_Technical_AssessmentTests\\Rifki_Technical_AssessmentTests.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessmenttests\\controllers\\productcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessment\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\technicaltest\\rifki_technical_assessment\\rifki_technical_assessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:rifki_technical_assessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessment\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\technicaltest\\rifki_technical_assessment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessment\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\technicaltest\\rifki_technical_assessment\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessment\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\technicaltest\\rifki_technical_assessment\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\technicaltest\\rifki_technical_assessment\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\technicaltest\\rifki_technical_assessment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessment\\helper\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:helper\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessment\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|c:\\rifki\\testkerja\\testaxa\\testtechnicalassessment\\rifki_technical_assessment\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D93103C-74C1-4C4A-8B3E-0A7B132C10CB}|Rifki_Technical_Assessment.csproj|solutionrelative:models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +49,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwCUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T06:14:56.074Z",
               "IsPinned": true,
@@ -56,82 +67,125 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductControllerTests.cs",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_AssessmentTests\\Controllers\\ProductControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\Rifki_Technical_AssessmentTests\\Controllers\\ProductControllerTests.cs",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_AssessmentTests\\Controllers\\ProductControllerTests.cs",
+              "RelativeToolTip": "..\\Rifki_Technical_AssessmentTests\\Controllers\\ProductControllerTests.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwFIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T04:20:22.015Z",
+              "WhenOpened": "2025-01-09T02:10:43.61Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Rifki_Technical_Assessment",
-              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj",
-              "RelativeDocumentMoniker": "Rifki_Technical_Assessment.csproj",
-              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Rifki_Technical_Assessment.csproj",
-              "RelativeToolTip": "Rifki_Technical_Assessment.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-06T10:59:07.484Z",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA4wBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:18:54.443Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:15:24.608Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DTOs.cs",
-              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Models\\DTOs.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs.cs",
-              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Models\\DTOs.cs",
-              "RelativeToolTip": "Models\\DTOs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAHQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T11:02:26.187Z",
+              "WhenOpened": "2025-01-09T06:59:34.399Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EncryptionHelper.cs",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Helper\\EncryptionHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\EncryptionHelper.cs",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Helper\\EncryptionHelper.cs",
+              "RelativeToolTip": "Helper\\EncryptionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:59:42.054Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T02:43:30.915Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T07:23:50.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\appsettings.json",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\appsettings.json",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-06T11:02:17.321Z",
+              "WhenOpened": "2025-01-09T07:21:20.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "DTOs.cs",
+              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Models\\DTOs.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs.cs",
+              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TestTechnicalAssessment\\Rifki_Technical_Assessment\\Models\\DTOs.cs",
+              "RelativeToolTip": "Models\\DTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T11:00:54.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseModel.cs",
-              "DocumentMoniker": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Models\\BaseModel.cs",
-              "RelativeDocumentMoniker": "Models\\BaseModel.cs",
-              "ToolTip": "C:\\RIFKI\\TestKerja\\TestAXA\\TechnicalTest\\Rifki_Technical_Assessment\\Models\\BaseModel.cs",
-              "RelativeToolTip": "Models\\BaseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T11:00:48.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T02:15:10.494Z"
             }
           ]
         }
